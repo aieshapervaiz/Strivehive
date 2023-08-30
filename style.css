@@ -192,6 +192,63 @@ li {
     box-shadow: 0 8px 16px 0 black(0,0,0,1);
   }
 
+ .card-container {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      flex-direction: row;
+      flex-wrap: wrap;
+  }
+    
+  
+  .card {
+    transition: 0.3s;
+    width: 330px;
+    height: 600px;
+    margin-bottom: 60px;
+    background-color: black;
+    margin-top: 60px;
+    
+  }
+
+  .card-img{  
+      width: 330px;
+      height: 374px;
+  
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    transform: scale(1.02) translateY(-5px);
+    cursor: pointer;
+  }
+ 
+  
+  .container1 {
+    padding: 2px 16px;
+  }
+  
+  .heading{
+    font-size: 18px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: 500;
+  }
+  .heading:hover {
+    color: #D8FF02;
+  }
+  
+  .description {
+    font-size: 16px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: 400;
+  }
+
 footer {
   background-color: black;
   padding: 30px;
