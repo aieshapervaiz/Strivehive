@@ -88,7 +88,11 @@ li {
  background-color: #000000;
  padding: 20px;
  height: 650px;
- width: 100%;
+ background-repeat: no-repeat;
+}
+.shape {
+ padding: 20px;
+ background-color: #D8FF02;
 }
 
 .welcome {
@@ -146,7 +150,7 @@ li {
       float: right;
       display: flex;
       align-items: baseline;
-      margin-right: 90px;
+      margin-right: 120px;
       margin-top: 150px;
       width: 565px;
       height: 350px;
@@ -250,7 +254,21 @@ li {
   gap: 15px;
   padding: 10px 0px;
   margin: 0px 10px;
-  margin-left: 20px;
+}
+
+.apple{
+  margin-left: 10px;
+  opacity: 0.7;
+}
+.apple:hover{
+  opacity: 1.0;
+}
+.google{
+  margin-left: 10px;
+  opacity: 0.7;
+}
+.google:hover{
+  opacity: 1.0;
 }
 
 .footerIcons {
